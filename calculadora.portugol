@@ -1,0 +1,41 @@
+programa 
+{
+  funcao inicio() 
+  {
+    real n1, n2, saida
+    caracter oper
+
+    escreva("Insira o primeiro número: ")
+    leia(n1)
+    escreva("Agora escolha a operação a ser realizada +, -, * ou /: ")
+    leia(oper)
+    escreva("Insira o segundo número: ")
+    leia(n2)
+
+    escolha (oper){
+          caso "+":
+          saida = n1 + n2
+          escreva("\nO resultado da soma é: ", saida)
+          pare
+
+          caso "-":
+          saida = n1 - n2
+          escreva("\nO resultado da subtração é: ", saida)
+          pare
+
+          caso "*":
+          saida = n1 * n2
+          escreva("\nO Resultado da multiplicação é: " , saida )
+          pare
+      
+          caso "/":
+          se (n2==0 )
+              escreva("\nErro! Divisão por zero, entre com um denominador diferente de 0")
+          senao
+              saida = n1 / n2
+              escreva("\nO resultado da divisão é: ", saida)
+        caso contrario:
+            escreva("\nOperação inválida!")
+      }
+ }
+}
