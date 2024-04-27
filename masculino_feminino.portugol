@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome, sexo
+		
+		escreva("Digite o nome da pessoa: ")
+		leia(nome)
+		
+		escreva("Digite o sexo da pessoa ('m' para masculino ou 'f' para feminino): ")
+		leia(sexo)
+		
+		se (sexo == "m"){
+			escreva("Ilmo Sr. ", nome)
+		} senao se (sexo == "f"){
+			escreva("Ilma Sra. ", nome)
+		} senao {
+			escreva("Sexo inválido.")
+		}
+	}
+}
