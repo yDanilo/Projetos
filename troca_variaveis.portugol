@@ -1,0 +1,22 @@
+programa 
+{
+  funcao inicio() 
+  {
+   cadeia n1, n2, n3
+   escreva("Entre com uma palavra: ")
+   leia (n1)
+   escreva("Entre outra palavra: ")
+   leia(n2)
+
+   escreva("\nVariável 1: ",n1)
+   escreva("\nVariável 2: ",n2)
+
+   escreva("\nTrocando as variáveis de posição...\n")
+   n3 = n1
+   n1 = n2
+   n2 = n3
+
+   escreva("\nVariável 1: ",n1)
+   escreva("\nVariável 2: ",n2)
+  }
+}
