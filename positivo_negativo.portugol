@@ -1,0 +1,20 @@
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro numero
+
+    escreva("Informe um número inteiro: ")
+    leia(numero)
+
+    se (numero > 0){
+      escreva("O número ", numero, " é positivo.")
+    } 
+    senao se (numero < 0){
+      escreva("O número ", numero, " é negativo.")
+    }
+    senao{
+      escreva("O número ", numero, " é neutro.")
+    }
+  }
+}
